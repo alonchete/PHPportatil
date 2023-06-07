@@ -1,0 +1,17 @@
+{
+    "name": "alons/examen-junio",
+    "autoload": {
+        "psr-4": {
+            "Alons\\ExamenJunio\\": "src/",
+            "Clases\\": "src/",
+            "BD\\": "database/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alonchete",
+            "email": "alonsete.tyr@gmail.com"
+        }
+    ],
+    "require": {}
+}

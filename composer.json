@@ -1,0 +1,28 @@
+{
+    "name": "alons/ejercicio",
+    "description": "php",
+    "type": "project",
+    "require": {
+        "ext-pdo_mysql": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alons\\Ejercicio\\": "src/",
+            "Imagenes\\": "Imagenes/",
+            "Imagenes\\Clases\\": "Imagenes/Clases/",
+            "Examen\\": "examen/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alonchete",
+            "email": "alonsete.tyr@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+
+    "config": {
+        "optimize-autoloader": true
+    }
+}

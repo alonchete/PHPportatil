@@ -1,0 +1,13 @@
+table{
+    background-color: rgb(88, 208, 13) ;
+    border: 1px solid black;
+    display: flex;
+}
+td{
+    border: 1px solid black;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
